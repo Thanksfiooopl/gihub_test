@@ -55,7 +55,7 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 RTCMemory<MyData> rtcMemory;
 byte reconnect_count = 0;
-byte led = LED1;
+byte led = LED2;
 
 // Replace with your unique IFTTT URL resource
 const char* resource = "/trigger/W309_button/json/with/key/b2vLX-drrllYvioMpp_iWP";
